@@ -1,11 +1,43 @@
 * {
-    font-family: "Arial", "New Times Roman", sans-serif;
+    font-family: "Roboto", "New Times Roman", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
 }
 
 .footer {
-    font-size: 18px;
+    font-size: 15px;
     color: #e5e7eb;
     background-color: #1f2937;
-    padding: 15px;
+    padding: 20px;
     text-align: center;
+}
+
+.adcont {
+    background-color: #3882f6;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.container {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonad {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 10px;
+    border-color: white;
+    font-size: 18px;
+}
+
+.action {
+    font-weight: bold;
+    font-size: 22px;
 }
