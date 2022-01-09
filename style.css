@@ -5,6 +5,7 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .footer {
@@ -27,6 +28,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    padding: 80px;
 }
 
 .buttonad {
@@ -40,4 +43,26 @@ body {
 .action {
     font-weight: bold;
     font-size: 22px;
+}
+
+.qoutecont {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 160px;
+}
+
+.qoute {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.author {
+    align-self: flex-end;
+}
+
+.ad {
+    padding: 40px;
 }
