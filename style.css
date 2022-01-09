@@ -1,0 +1,11 @@
+* {
+    font-family: "Arial", "New Times Roman", sans-serif;
+}
+
+.footer {
+    font-size: 18px;
+    color: #e5e7eb;
+    background-color: #1f2937;
+    padding: 15px;
+    text-align: center;
+}
